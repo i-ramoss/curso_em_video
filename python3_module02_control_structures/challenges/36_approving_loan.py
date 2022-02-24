@@ -9,7 +9,11 @@ years = int(input('How many years do you intend to finance this house? Enter her
 
 monthlyPayment = houseValue / (years * 12)
 
-print('The montly fee will be R${:.2f}. This amount needs to be less than 30% of your salary, which corresponds to R${:.2f}'.format(monthlyPayment, buyerSalary * 0.3))
+print(
+  '''The montly fee will be R${:.2f}. 
+This amount needs to be less than 30% of your salary, which corresponds to R${:.2f}'''
+  .format(monthlyPayment, buyerSalary * 0.3)
+)
 
 if monthlyPayment > (buyerSalary * 0.3): 
   print('You do not meet the requeriments to take out this loan, sorry!')
