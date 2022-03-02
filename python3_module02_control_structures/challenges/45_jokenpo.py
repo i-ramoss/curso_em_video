@@ -23,9 +23,11 @@ user_wins = 0
 computer_wins = 0
 
 while user_choice in computer_options:
-    print("\nJokennnnnn", end="")
+    print("\nJO")
     sleep(1)
-    print("pooooo!!!\n")
+    print("KEN")
+    sleep(1)
+    print("POOO\n")
 
     print("{} VS COMPUTER".format(username))
 
