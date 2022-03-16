@@ -2,12 +2,12 @@
 # that are even.
 # If the value entered is odd, disregard it.
 
-counter = 0
+sum = 0
 
 for index in range(0, 6):
     number = int(input("Enter an integer: "))
 
     if number % 2 == 0:
-        counter += number
+        sum += number
 
-print("The sum of all even numbers added is:", counter)
+print("The sum of all even numbers added is:", sum)
