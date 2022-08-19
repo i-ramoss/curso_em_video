@@ -21,7 +21,7 @@ public class Pen {
   }
 
   public void status() {
-    System.out.println("Model: " + this.model);
-    System.out.println("Nib: " + this.nib);
+    System.out.println("Model: " + this.getModel());
+    System.out.println("Nib: " + this.getNib());
   }
 }

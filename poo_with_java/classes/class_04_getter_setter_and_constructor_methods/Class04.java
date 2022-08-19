@@ -12,5 +12,6 @@ public class Class04 {
     pen.setNib(0.5f); // Use the setter method to modify the private attribute
 
     pen.status();
+    System.out.println("I have a " + pen.getNib() + " tip " + pen.getModel() + " pen.");
   }
 }
