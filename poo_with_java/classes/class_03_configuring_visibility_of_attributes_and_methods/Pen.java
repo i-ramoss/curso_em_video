@@ -5,7 +5,7 @@ public class Pen {
   public String color;
   private float nib;
   protected int charge;
-  protected boolean isCovered;
+  private boolean isCovered;
 
   public void write() {
     if (this.isCovered)
@@ -16,11 +16,11 @@ public class Pen {
     }
   }
 
-  protected void cover() {
+  public void cover() {
     this.isCovered = true;
   }
 
-  protected void uncover() {
+  public void uncover() {
     this.isCovered = false;
   }
 

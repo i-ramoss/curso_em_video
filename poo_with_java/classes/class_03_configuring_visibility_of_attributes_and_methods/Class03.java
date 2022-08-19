@@ -8,6 +8,9 @@ public class Class03 {
     pen.color = "white";
     // pen.nib = 0.7; // The field Pen.nib is not visible (private)
     pen.charge = 80;
-    pen.isCovered = true;
+    // pen.isCovered = true; // The field Pen.isCovered is not visibile (private)
+    pen.cover();
+
+    pen.status();
   }
 }
