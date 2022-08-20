@@ -6,6 +6,12 @@ public class Pen {
   private float nib;
   private boolean isCovered;
 
+  public Pen(String model, String color, float nib) { // Constructor method
+    this.setColor(color);
+    this.setNib(nib);
+    this.setModel(model);
+  }
+
   public String getModel() {
     return this.model;
   }
