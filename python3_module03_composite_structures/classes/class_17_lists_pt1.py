@@ -54,7 +54,7 @@ print(f"List B: {listB}")
 
 print()
 
-# para copiar os dados de uma lista, sem realizar a ligação entre elas:
+# para copiar os dados de uma lista, sem realizar a ligação entre elas, através de um fatiamento completo:
 listA = [2, 3, 4, 7]
 listB = listA[:]
 listB[1] = 99
