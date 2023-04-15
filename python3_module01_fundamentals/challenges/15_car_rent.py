@@ -3,9 +3,13 @@
 cost_per_day = 60
 cost_per_km = 0.15
 
-days_rented = int(input('How many days was the car rented? '))
-km_traveled = float(input('How many kilometers did you travel? Enter here: '))
+days_rented = int(input("How many days was the car rented? "))
+km_traveled = float(input("How many kilometers did you travel? Enter here: "))
 
-price = ((days_rented * cost_per_day) + (km_traveled * cost_per_km))
+price = (days_rented * cost_per_day) + (km_traveled * cost_per_km)
 
-print('Knowing that the daily costs R${} and R${} for each kilometer travelled, the total amount of the rent is: R${:.2f}'.format(cost_per_day, cost_per_km, price))
+print(
+    "Knowing that the daily costs R${} and R${} for each kilometer travelled, the total amount of the rent is: R${:.2f}".format(
+        cost_per_day, cost_per_km, price
+    )
+)

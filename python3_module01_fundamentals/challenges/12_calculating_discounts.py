@@ -2,6 +2,10 @@
 
 discount = 0.05
 
-price = float(input('Enter the product price: '))
+price = float(input("Enter the product price: "))
 
-print('Appying the five percent of discount in this product price the final price is: R${:.2f}'.format(price - (price * discount)))
+print(
+    "Appying the five percent of discount in this product price the final price is: R${:.2f}".format(
+        price - (price * discount)
+    )
+)

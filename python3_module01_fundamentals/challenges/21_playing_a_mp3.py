@@ -2,4 +2,4 @@
 
 import playsound
 
-playsound.playsound('bala_azul.mp3')
+playsound.playsound("bala_azul.mp3")

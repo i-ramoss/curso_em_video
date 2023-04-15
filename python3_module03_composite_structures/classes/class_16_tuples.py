@@ -1,4 +1,4 @@
-# snack = "burguer", "juice", "pizza", "pudding" - works without parenthesis
+# snack = "burguer", "juice", "pizza", "pudding" - works without parentheses
 snacks = ("burguer", "juice", "pizza", "pudding")
 
 print("Snack:", snacks[0])
@@ -22,18 +22,20 @@ print()
 for snack in snacks:
     # f-strings notation
     print(f"I eat {snack} today")
-    
+
 print()
-    
+
 # for with index
 for index, snack in enumerate(snacks):
     print(f"I eat {snack} today. And {snack} is in the position {index} on tuple.")
-    
+
 print()
 
 # for with index (second way)
 for index in range(0, len(snacks)):
-    print(f"I eat {snacks[index]} today. And {snacks[index]} is in the position {index} on tuple.")
+    print(
+        f"I eat {snacks[index]} today. And {snacks[index]} is in the position {index} on tuple."
+    )
 
 # delete a tuple entirely, only 1 or more items from the tupla cannot be deleted
-del(snacks)
+del snacks

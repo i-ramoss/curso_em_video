@@ -6,15 +6,15 @@ snacks[3] = "popsicle"
 print("Snacks: ", snacks)
 
 # add elements to the list
-snacks.append("pudding") # add to the end
-snacks.insert(2, "hot-dog") # add to any position
+snacks.append("pudding")  # add to the end
+snacks.insert(2, "hot-dog")  # add to any position
 
 print("Snacks: ", snacks)
 
 # remove elements to the list
-del snacks[0] # remove element on 0 position
-snacks.pop() # remove element on the last position, but you can pass any position inside the parenthesis
-snacks.remove("juice") # remove element by value
+del snacks[0]  # remove element on 0 position
+snacks.pop()  # remove element on the last position, but you can pass any position inside the parentheses
+snacks.remove("juice")  # remove element by value
 
 print("Snacks: ", snacks)
 
@@ -24,7 +24,7 @@ print()
 ####################################################################################
 
 # create list from range
-values = list(range(4,11))
+values = list(range(4, 11))
 
 print("values", values)
 
@@ -45,7 +45,7 @@ print()
 ####################################################################################
 
 listA = [2, 3, 4, 7]
-listB = listA # não é feito uma cópia, mas uma ligação, listA e listB estão apontando para o mesmo valor, assim, se eu alterar um valor em listB esse valor também será alterado em listA
+listB = listA  # não é feito uma cópia, mas uma ligação, listA e listB estão apontando para o mesmo valor, assim, se eu alterar um valor em listB esse valor também será alterado em listA
 
 listB[1] = 99
 

@@ -9,19 +9,19 @@ matriz = []
 ## inserindo elementos um a um
 # for line in range(lines):
 #     lineList = []
-    
+
 #     for column in range(columns):
 #         lineList.append(0)
-        
+
 #     matriz.append(lineList)
 
-# print(matriz)    
+# print(matriz)
 
 
 ## inserindo linha a linha
 # for _ in range(lines):
 #     matriz.append([0] * columns)
-    
+
 # print(matriz)
 
 
@@ -39,10 +39,10 @@ print()
 # Função para criar uma matriz zerada, mas que recebe linhas e colunas como parâmetros
 # def matriz(lines, columns):
 #     newMatriz = []
-    
+
 #     for _ in range(lines):
 #         newMatriz.append([0] * columns)
-        
+
 #     return newMatriz
 
 # print(matriz(int(input("Número de linhas: ")), int(input("Número de colunas: "))))
@@ -53,7 +53,7 @@ print("-" * 50)
 print()
 ####################################################################################
 
-# Criando uma matriz a partir de dados da entrada 
+# Criando uma matriz a partir de dados da entrada
 line, columns = [int(entry) for entry in input().split()]
 
 # matriz = []

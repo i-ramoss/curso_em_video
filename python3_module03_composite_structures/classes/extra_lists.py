@@ -10,7 +10,7 @@ even = []
 for number in numbers:
     if number % 2 == 0:
         even.append(number)
-    
+
 print("Even:", even)
 
 # usando list comprehensions

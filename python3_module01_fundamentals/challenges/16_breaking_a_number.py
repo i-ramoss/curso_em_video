@@ -2,8 +2,20 @@
 
 from math import trunc, floor
 
-number = float(input('Enter a real number: '))
+number = float(input("Enter a real number: "))
 
-print('The integer part of the number {}, using truncate function, is {}.'.format(number, trunc(number)))
-print('The integer part of the number {}, using floor function, is {}.'.format(number, floor(number)))
-print('The integer part of the number {}, using int type, is {}.'.format(number, int(number)))
+print(
+    "The integer part of the number {}, using truncate function, is {}.".format(
+        number, trunc(number)
+    )
+)
+print(
+    "The integer part of the number {}, using floor function, is {}.".format(
+        number, floor(number)
+    )
+)
+print(
+    "The integer part of the number {}, using int type, is {}.".format(
+        number, int(number)
+    )
+)
