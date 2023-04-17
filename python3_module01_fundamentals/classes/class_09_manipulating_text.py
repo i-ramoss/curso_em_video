@@ -40,3 +40,12 @@ print(
     """Welcome!
 Are you completely new to programming?"""
 )
+
+# List
+
+hello = "Hello"
+print(list(hello))
+
+# Strings em python são imutáveis. A solução é transformar em lista, fazer
+# a modificação, e então converter de volta para string.
+# O método .replace() também pode ser utilizado em alguns casos.
